@@ -5,36 +5,36 @@
 # aera:documentation
 
 accessibility:
-    - '\[x\]  Accessibility (Web Accessibility)'
+  - '\[x\]  Accessibility (Web Accessibility)'
 'area:build':
-    - '\[x\]  Build tools and processes'
+  - '\[x\]  Build tools and processes'
 'area:devops':
-    - '\[x\]  Build tools and processes'
+  - '\[x\]  Build tools and processes'
 'area:color':
-    - '\[x\]  Color'
+  - '\[x\]  Color'
 # area:events
 'area:core':
-    - '\[x\]  Core/Environment/Rendering'
+  - '\[x\]  Core/Environment/Rendering'
 # What should the checkbox 'Data' be?
 'area:dom':
-    - '\[x\]  DOM'
+  - '\[x\]  DOM'
 'area:events':
-    - '\[x\]  Events'
+  - '\[x\]  Events'
 'friendly-errors':
-    - '\[x\]  Friendly error system'
+  - '\[x\]  Friendly error system'
 # area:gif
 'area:image':
-    - '\[x\]  Image'
+  - '\[x\]  Image'
 'area:io':
-    - '\[x\]  IO (Input/Output)'
+  - '\[x\]  IO (Input/Output)'
 'localization':
-    - '\[x\]  Localization'
+  - '\[x\]  Localization'
 'area:math':
-    - '\[x\]  Math'
+  - '\[x\]  Math'
 # What should Unit Testing be?
 'area:typography':
-    - '\[x\]  Typography'
+  - '\[x\]  Typography'
 'area:utilities':
-    - '\[x\]  Utilities'
+  - '\[x\]  Utilities'
 'area:webgl':
-    - '\[x\]  WebGL'
+  - '\[x\]  WebGL'
