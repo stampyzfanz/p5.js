@@ -1,0 +1,40 @@
+# Labels that aren't used in this code
+# area:events
+# area:examples
+# area:tutorial
+# aera:documentation
+
+accessibility:
+    - '\[x\]  Accessibility (Web Accessibility)'
+'area:build':
+    - '\[x\]  Build tools and processes'
+'area:devops':
+    - '\[x\]  Build tools and processes'
+'area:color':
+    - '\[x\]  Color'
+# area:events
+'area:core':
+    - '\[x\]  Core/Environment/Rendering'
+# What should the checkbox 'Data' be?
+'area:dom':
+    - '\[x\]  DOM'
+'area:events':
+    - '\[x\]  Events'
+'friendly-errors':
+    - '\[x\]  Friendly error system'
+# area:gif
+'area:image':
+    - '\[x\]  Image'
+'area:io':
+    - '\[x\]  IO (Input/Output)'
+'localization':
+    - '\[x\]  Localization'
+'area:math':
+    - '\[x\]  Math'
+# What should Unit Testing be?
+'area:typography':
+    - '\[x\]  Typography'
+'area:utilities':
+    - '\[x\]  Utilities'
+'area:webgl':
+    - '\[x\]  WebGL'
