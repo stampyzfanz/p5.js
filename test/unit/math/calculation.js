@@ -449,4 +449,37 @@ suite('Calculation', function() {
       assert.equal(result, 10);
     });
   });
+
+  suite('p5.prototype.fract', function() {
+    var result;
+    test('should be a function', function() {
+      assert.ok(myp5.fract);
+      assert.typeOf(myp5.fract, 'function');
+    });
+
+    test('should return NaN when passed NaN', function() {
+      result = myp5.fract(NaN);
+      assert.equal(isNaN(result), true);
+    });
+
+    test('should return fractional part when passed a positive number', function() {
+      result = myp5.fract(7345.73472742);
+      assert.equal(result, 0.73472742);
+    });
+
+    test('should return fractional part when passed a negative number', function() {
+      result = myp5.fract(-7345.73472742);
+      assert.equal(result, 0.26527258);
+    });
+
+    test('should return fractional part of large number defined using scientific notation', function() {
+      result = myp5.fract(1.23e5);
+      assert.equal(result, 0);
+    });
+
+    test('should return fractional part of small number defined using scientific notation', function() {
+      result = myp5.fract(1.23e-5);
+      assert.equal(result, 0.0000123);
+    });
+  });
 });
